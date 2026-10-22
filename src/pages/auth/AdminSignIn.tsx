@@ -97,23 +97,7 @@ export default function AdminSignIn() {
             maxWidth: '400px'
           }}>
           
-          <Box
-            sx={{
-              mb: 6,
-              textAlign: 'center'
-            }}>
-            
-            <Typography
-              variant="h4"
-              sx={{
-                fontFamily: 'Merriweather, serif',
-                fontWeight: 700,
-                color: '#004987'
-              }}>
-              
-              FSDH
-            </Typography>
-          </Box>
+          
           <Box
             sx={{
               textAlign: 'center'
@@ -142,7 +126,7 @@ export default function AdminSignIn() {
                 mb: 1
               }}>
               
-              HR Admin Portal
+              FSDH PAYHUB PORTAL
             </Typography>
             <Typography
               variant="body2"
@@ -151,7 +135,7 @@ export default function AdminSignIn() {
                 mb: 4
               }}>
               
-              Sign in with your staff email to access the HR Onboarding Portal
+              Sign in with your staff email to access the Portal
             </Typography>
             <Button
               fullWidth
@@ -213,50 +197,7 @@ export default function AdminSignIn() {
           position: 'relative'
         }}>
         
-        <motion.div
-          initial={{
-            opacity: 0,
-            scale: 0.9
-          }}
-          animate={{
-            opacity: 1,
-            scale: 1
-          }}
-          transition={{
-            duration: 0.6,
-            delay: 0.2
-          }}>
-          
-          <Box
-            sx={{
-              textAlign: 'center',
-              color: 'white'
-            }}>
-            
-            <Typography
-              variant="h3"
-              sx={{
-                fontFamily: 'Merriweather, serif',
-                fontWeight: 600,
-                mb: 2
-              }}>
-              
-              HR Admin Portal
-            </Typography>
-            <Typography
-              variant="body1"
-              sx={{
-                fontSize: '18px',
-                opacity: 0.9,
-                maxWidth: '400px',
-                mx: 'auto'
-              }}>
-              
-              Manage employee onboarding, payroll, and performance all in one
-              place
-            </Typography>
-          </Box>
-        </motion.div>
+        
         <Box
           sx={{
             position: 'absolute',
